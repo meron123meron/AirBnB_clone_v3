@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
 """ index """
-=======
-""" Index """
->>>>>>> b221cd7e236c64075aba40da5ab579f67df704e7
 from models.amenity import Amenity
 from models.city import City
 from models.place import Place
@@ -32,7 +28,3 @@ def number_objects():
         num_objs[names[i]] = storage.count(classes[i])
 
     return jsonify(num_objs)
-<<<<<<< HEAD
-
-=======
->>>>>>> b221cd7e236c64075aba40da5ab579f67df704e7
